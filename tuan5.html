@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thêm Sản Phẩm Mới</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <h2>Thêm Sản Phẩm Mới</h2>
+
+    <form>
+        <table border="1" cellpadding="5" cellspacing="0">
+            <tr>
+                <td><label for="product-code">Mã sản phẩm</label></td>
+                <td><input type="text" id="product-code" value="49181802" readonly></td>
+            </tr>
+            <tr>
+                <td><label for="product-name">Tên sản phẩm</label></td>
+                <td><input type="text" id="product-name" value="Oxford Advanced Learn"></td>
+            </tr>
+            <tr>
+                <td><label for="image">Hình ảnh</label></td>
+                <td><input type="file" id="image"></td>
+            </tr>
+            <tr>
+                <td><label for="manufacturer">Hãng sản xuất</label></td>
+                <td><input type="text" id="manufacturer" value="Thiên Long"></td>
+            </tr>
+            <tr>
+                <td><label for="dimensions">Kích thước</label></td>
+                <td><input type="text" id="dimensions" value="W: 200 mm, H: 300 mm"></td>
+            </tr>
+            <tr>
+                <td><label for="pages">Số trang</label></td>
+                <td><input type="text" id="pages" value="1200"></td>
+            </tr>
+            <tr>
+                <td><label for="author">Tác giả</label></td>
+                <td><input type="text" id="author" value="English Corpus"></td>
+            </tr>
+            <tr>
+                <td><label for="price">Giá</label></td>
+                <td><input type="text" id="price" value="517.000"></td>
+            </tr>
+            <tr>
+                <td><label for="color">Màu</label></td>
+                <td><input type="color" id="color"></td>
+            </tr>
+            <tr>
+                <td><label for="origin">Xuất xứ</label></td>
+                <td><input type="text" id="origin" value="Không có"></td>
+            </tr>
+            <tr>
+                <td><label>Thể loại</label></td>
+                <td>
+                    <label><input type="checkbox"> Văn học</label><br>
+                    <label><input type="checkbox"> Kinh tế</label><br>
+                    <label><input type="checkbox"> Tâm lý</label><br>
+                    <label><input type="checkbox"> Thiếu nhi</label><br>
+                    <label><input type="checkbox"> Giáo khoa</label><br>
+                    <label><input type="checkbox" checked> Ngoại ngữ</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="description">Mô tả chi tiết</label></td>
+                <td><textarea id="description" rows="4">Paperback - 10th Edition (With 1 Year's Access To Both Premium Online And App)</textarea></td>
+            </tr>
+        </table><br>
+
+        <button type="submit">Lưu</button>
+    </form>
+</body>
+</html>
